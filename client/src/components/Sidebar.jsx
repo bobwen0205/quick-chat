@@ -40,7 +40,7 @@ const Sidebar = () => {
             onClick={() => setSelectedUser(null)}
             src={assets.logo}
             alt="logo"
-            className="max-w-40"
+            className="max-w-40 hover:cursor-pointer"
           />
           <div className="relative py-2 group">
             <img
